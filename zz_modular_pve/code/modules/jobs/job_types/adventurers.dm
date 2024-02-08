@@ -47,6 +47,61 @@
 	selection_color = "#FFDDFF"
 	exp_requirements = 0
 
+
+/datum/outfit/job/den/f13practitioner
+	name =	"Town Doctor"
+	jobtype =	/datum/job/oasis/f13practitioner
+	uniform =	/obj/item/clothing/under/f13/followers
+	id =	/obj/item/card/id/silver
+	chemwhiz =	TRUE
+	backpack =	/obj/item/storage/backpack/medic
+	belt = /obj/item/kit_spawner/follower/doctor
+	satchel =	/obj/item/storage/backpack/satchel/med
+	duffelbag =	/obj/item/storage/backpack/duffelbag/med
+	backpack_contents = list(
+		/obj/item/storage/survivalkit/medical/follower = 1,
+		/obj/item/pda = 1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
+		/obj/item/reagent_containers/medspray/synthflesh = 1,
+		/obj/item/storage/firstaid/ancient = 1,
+		/obj/item/gun/energy/laser/complianceregulator = 1,
+		/obj/item/storage/wallet/stash/mid = 1,
+		/obj/item/book/granter/trait/tending,
+		/obj/item/book/granter/trait/touching,
+	)
+
+/datum/outfit/loadout/physician
+	name =	"Emergency Physician"
+	suit =	/obj/item/clothing/suit/toggle/labcoat/followers
+	mask =	/obj/item/clothing/mask/surgical
+	gloves =	/obj/item/clothing/gloves/color/latex/nitrile
+	backpack_contents = list(
+		/obj/item/clothing/suit/hooded/surgical = 1,
+		/obj/item/reagent_containers/medspray/synthflesh = 1,
+		/obj/item/healthanalyzer/advanced = 1,
+	)
+
+/datum/outfit/loadout/pharmacist
+	name =	"Pharmacist"
+	suit =	/obj/item/clothing/suit/toggle/labcoat/chemist
+	gloves =	/obj/item/clothing/gloves/color/latex
+	glasses =	/obj/item/clothing/glasses/science
+	backpack_contents = list(
+		/obj/item/flashlight/pen = 1,
+		/obj/item/pda/chemist = 1,
+	)
+
+/datum/outfit/loadout/paramedic
+	name =	"Paramedic"
+	head =	/obj/item/clothing/head/soft/emt
+	suit =	/obj/item/clothing/suit/toggle/labcoat/emt
+	belt =	/obj/item/storage/belt/medical
+	backpack_contents = list(
+		/obj/item/reagent_containers/medspray/synthflesh = 2,
+		/obj/item/pda/medical = 1,
+		/obj/item/healthanalyzer=1,
+	)
+
 /datum/outfit/job/den/f13dendoc //healer adventurer
 	name = "Healer"
 	jobtype = /datum/job/oasis/f13practitioner
@@ -70,7 +125,7 @@
 		/obj/item/book/granter/trait/touching
 		)
 
-/datum/outfit/job/den/f13dendoc/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/den/f13practitioner/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
