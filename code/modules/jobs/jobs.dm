@@ -152,7 +152,7 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 	"Scribe",
 	"Initiate",
 ))
-//Nash/Oasis
+//Nash/Oasis - || NONMODULAR PVEHAMMER CHANGES ||
 GLOBAL_LIST_INIT(oasis_positions, list(
 	"High Alderperson",
 	"Councilperson",
@@ -173,6 +173,8 @@ GLOBAL_LIST_INIT(oasis_positions, list(
 	"Preacher",
 	"Vertibird Pilot",
 	"Nash Librarian",
+	"Adventurer",
+	"Healer",
 ))
 
 //Den Citizenship
@@ -333,7 +335,7 @@ GLOBAL_LIST_INIT(heavensnight_positions, list(
 	"Club Worker",
 ))
 
-/// TODO: Take all these horrible string-based roflcopters and have them 
+/// TODO: Take all these horrible string-based roflcopters and have them
 // job categories for rendering the late join menu
 GLOBAL_LIST_INIT(position_categories, list(
 	//	EXP_TYPE_NCR = list("jobs" = ncr_positions, "color" = "#ffeeaa"),
