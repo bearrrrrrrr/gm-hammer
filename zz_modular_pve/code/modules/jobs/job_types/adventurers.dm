@@ -1,12 +1,23 @@
 // modular jobs
 
+/*
+  ___      _                 _
+ / _ \    | |               | |
+/ /_\ \ __| __   _____ _ __ | |_ _   _ _ __ ___ _ __
+|  _  |/ _` \ \ / / _ | '_ \| __| | | | '__/ _ | '__|
+| | | | (_| |\ V |  __| | | | |_| |_| | | |  __| |
+\_| |_/\__,_| \_/ \___|_| |_|\__|\__,_|_|  \___|_|
+
+
+*/
+
 /datum/job/oasis/f13deputy
 	title = "Adventurer"
 	flag = F13DEPUTY
 	department_flag = DEP_OASIS
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "The Senior Adventurer, the City Guard, the Guild's Advisors, the Healer (when you are feeling particularly lucid)"
+	supervisors = "The Senior Adventurer, the City Guard, the Guild's Advisors"
 	description = "You."
 //	enforces = "You may be elected temporary Sheriff if one does not exist. This may make you the stand-in leader of Nash if a Mayor or Secretary does not exist."
 	selection_color = "#dcba97"
@@ -32,6 +43,13 @@
 		)
 	)
 
+/*
+ | |  | |                | |
+ | |__| |   ___    __ _  | |   ___   _ __
+ |  __  |  / _ \  / _` | | |  / _ \ | '__|
+ | |  | | |  __/ | (_| | | | |  __/ | |
+ |_|  |_|  \___|  \__,_| |_|  \___| |_|
+*/
 
 
 /datum/job/oasis/f13practitioner
@@ -141,3 +159,65 @@
 	ADD_TRAIT(H, TRAIT_HEAL_TEND, src)
 	ADD_TRAIT(H, TRAIT_HEAL_TOUCH, src)
 	ADD_TRAIT(H, TRAIT_IMPROVED_HEALING, src)
+
+
+/*
+  / ____|
+ | |  __   _   _   _ __    _ __     ___   _ __
+ | | |_ | | | | | | '_ \  | '_ \   / _ \ | '__|
+ | |__| | | |_| | | | | | | | | | |  __/ | |
+  \_____|  \__,_| |_| |_| |_| |_|  \___| |_|
+  */
+
+/datum/job/oasis/f13sheriff
+	title = "Gunner"
+	flag = F13SHERIFF
+	department_flag = DEP_OASIS
+	head_announce = list("Security")
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "The Senior Adventurer, the City Guard, the Guild's Advisors"
+	description = "You are the civil enforcer of Nash, keeping the settlement within firm control under the authority of the Mayor. With your loyal patrolmen, you maintain your claim to authority by keeping the peace, managing disputes, and protecting the citizens from threats within and without. Never leave Nash undefended, and don't let its people die out. If this town falls, new conquerors don't tend to look kindly upon the old law."
+	enforces = "You are the stand-in leader of Nash if a Mayor or Secretary does not exist."
+	selection_color = "#d7b088"
+	exp_requirements = 0
+
+/datum/outfit/loadout/thelaw
+	name = "Skirmisher"
+	suit = /obj/item/clothing/suit/armor/medium/duster/town/sheriff
+	head = /obj/item/clothing/head/f13/town/sheriff
+	uniform = /obj/item/clothing/under/f13/police/formal
+	neck = /obj/item/storage/belt/shoulderholster
+	//r_hand = /obj/item/gun/ballistic/rifle/repeater/brush
+	shoes = /obj/item/clothing/shoes/f13/military/plated
+
+	backpack_contents = list(
+		/obj/item/gun/flintlock = 2,
+		/obj/item/ammo_box/musketbag = 2,
+		)
+
+/datum/outfit/loadout/thechief
+	name = "Sniper"
+	uniform = /obj/item/clothing/suit/armor/light/leather
+	suit = /obj/item/clothing/suit/armor/medium/duster/town/chief
+	head = /obj/item/clothing/head/f13/town/chief
+	neck = /obj/item/storage/belt/shoulderholster/ranger45
+	shoes = /obj/item/clothing/shoes/combat
+	// r_hand = /obj/item/gun/ballistic/shotgun/automatic/combat/citykiller
+
+	backpack_contents = list(
+		/obj/item/gun/flintlock/musket = 1,
+		/obj/item/ammo_box/musketbag = 2
+		)
+
+/datum/outfit/loadout/thedictator
+	name = "Cannoneer"
+	uniform = /obj/item/clothing/under/f13/police/chief
+	suit = /obj/item/clothing/suit/armor/heavy/texasheavy
+	//r_hand = /obj/item/gun/energy/laser/scatter
+
+	backpack_contents = list(
+		/obj/item/gun/flintlock/matchlock/musketoon/espingole = 1,
+		/obj/item/ammo_box/musketbag = 2,
+
+		)
