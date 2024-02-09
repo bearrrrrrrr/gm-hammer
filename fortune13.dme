@@ -4067,4 +4067,6 @@
 #include "modular_sunset\code\modules\food_and_drinks\happy_shark\happy_shark.dm"
 #include "zz_modular_pve\code\game\objects\effects\spawners\masterlootdrop.dm"
 #include "zz_modular_pve\code\modules\projectiles\guns\ballistic\flintlock.dm"
+#include "zz_modular_pve\code\game\objects\items\granters.dm"
+#include "zz_modular_pve\code\modules\jobs\job_types\adventurers.dm"
 // END_INCLUDE
