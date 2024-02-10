@@ -193,7 +193,7 @@
 
 	backpack_contents = list(
 		/obj/item/gun/flintlock = 2,
-		/obj/item/ammo_box/musketbag = 2,
+		/obj/item/ammo_box/flintlock = 2,
 		)
 
 /datum/outfit/loadout/thechief
@@ -207,7 +207,7 @@
 
 	backpack_contents = list(
 		/obj/item/gun/flintlock/musket = 1,
-		/obj/item/ammo_box/musketbag = 2
+		/obj/item/ammo_box/flintlock = 2
 		)
 
 /datum/outfit/loadout/thedictator
@@ -218,6 +218,6 @@
 
 	backpack_contents = list(
 		/obj/item/gun/flintlock/matchlock/musketoon/espingole = 1,
-		/obj/item/ammo_box/musketbag = 2,
+		/obj/item/ammo_box/flintlock = 2,
 
 		)

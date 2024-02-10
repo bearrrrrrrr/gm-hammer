@@ -4069,4 +4069,5 @@
 #include "zz_modular_pve\code\game\objects\items\granters.dm"
 #include "zz_modular_pve\code\modules\jobs\job_types\adventurers.dm"
 #include "zz_modular_pve\code\modules\projectiles\guns\ballistic\flintlock.dm"
+#include "zz_modular_pve\modular_coyote\code\modules\area_blurb.dm"
 // END_INCLUDE
