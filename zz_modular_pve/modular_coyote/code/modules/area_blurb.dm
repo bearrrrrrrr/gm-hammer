@@ -12,3 +12,9 @@
 
 /area/f13/wasteland/redwater
 	narrate = "The Southern Dryport Barrens. This area used to be full of merchants, travelers, and guardtowers, before the peace treaty forced its demilitarization. Ever since then, it's been full of monsters, bandits, and baddies."
+
+/area/f13/wasteland/redwater/dendrin
+	name = "Dendrin"
+	narrate = "The town of Dendrin used to be closely guarded by the Dryport Guard from the watchtower across the moat to your west. Dendrin, and the watchtower, were destroyed during the war. Efforts to rebuild both have been made, but nothing's come of it. Skeletal, burnt houses husk around you."
+
+
