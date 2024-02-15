@@ -76,22 +76,26 @@ obj/effect/spawner/lootdrop/f13/rare
 	name = "trash treasure"
 	loot = list(
 		/obj/effect/spawner/lootdrop/f13/mice = 5,
-		/obj/item/stack/f13Cash/random/low = 55,
+		/obj/item/stack/f13Cash/random/low = 25,
 		/obj/item/stack/sheet/mineral/silver/two = 1,
-		/obj/item/export/bottle/minikeg = 15,
+		/obj/item/export/bottle/minikeg = 25,
+		/obj/item/ammo_box/rock/improvised = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_food = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_trash = 40,
 	)
 
 /obj/effect/spawner/lootdrop/f13/pve_ammo
 	name = "ammo for all rarities"
 	loot = list(
 		/obj/item/ammo_box/flintlock = 1,
-		/obj/item/projectile/bullet/reusable/arrow/explosive = 1,
-		/obj/item/projectile/bullet/reusable/arrow/flint = 25,
-		/obj/item/projectile/bullet/reusable/arrow/bone = 25,
-		/obj/item/projectile/bullet/reusable/arrow/bludgeon = 5,
-		/obj/item/projectile/bullet/reusable/arrow/field = 5,
-		/obj/item/projectile/bullet/reusable/arrow/bodkin = 5,
-		/obj/item/projectile/bullet/reusable/arrow/broadhead = 5,
+		/obj/item/ammo_box/rock/improvised = 5,
+		/obj/item/ammo_casing/caseless/arrow/explosive = 1,
+		/obj/item/ammo_casing/caseless/arrow/flint = 25,
+		/obj/item/ammo_casing/caseless/arrow/bone = 25,
+		/obj/item/ammo_casing/caseless/arrow/bludgeon = 5,
+		/obj/item/ammo_casing/caseless/arrow/field = 5,
+		/obj/item/ammo_casing/caseless/arrow/bodkin = 5,
+		/obj/item/ammo_casing/caseless/arrow/broadhead = 5,
 	)
 
 /obj/effect/spawner/lootdrop/f13/pve_common_weapon
@@ -123,6 +127,9 @@ obj/effect/spawner/lootdrop/f13/rare
 		/obj/item/stack/f13Cash/random/med = 55,
 		/obj/item/stack/sheet/mineral/silver/twentyfive = 5,
 		/obj/item/export/bottle/applejack = 1,
+		/obj/item/ammo_box/rock/improvised = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_food = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_trash = 40,
 	)
 
 /obj/effect/spawner/lootdrop/f13/pve_uncommon_weapons
@@ -149,6 +156,9 @@ obj/effect/spawner/lootdrop/f13/rare
 	loot = list(
 		/obj/item/stack/f13Cash/random/med = 55,
 		/obj/item/export/bottle/wine = 1,
+		/obj/item/ammo_box/rock/improvised = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_food = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_trash = 40,
 	)
 
 /obj/effect/spawner/lootdrop/f13/pve_rare_weapons
@@ -178,4 +188,7 @@ obj/effect/spawner/lootdrop/f13/rare
 		/obj/item/stack/f13Cash/random/high = 55,
 		/obj/item/reagent_containers/food/drinks/bottle/lizardwine = 1,
 		/obj/item/export/bottle/absinthe = 1,
+		/obj/item/ammo_box/rock/improvised = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_food = 10,
+		/obj/effect/spawner/lootdrop/f13/trash_trash = 40,
 	)
