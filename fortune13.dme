@@ -4079,4 +4079,5 @@
 #include "zz_modular_pve\code\modules\projectiles\guns\ballistic\revolver.dm"
 #include "zz_modular_pve\code\modules\projectiles\projectile\reusable\arrow.dm"
 #include "zz_modular_pve\code\modules\smithing\finished_items.dm"
+#include "zz_modular_pve\modular_coyote\code\modules\area_blurb.dm"
 // END_INCLUDE
