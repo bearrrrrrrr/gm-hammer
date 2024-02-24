@@ -4073,6 +4073,7 @@
 #include "zz_modular_pve\code\game\objects\items\melee\f13twohanded.dm"
 #include "zz_modular_pve\code\modules\clothing\suits\arfsuits.dm"
 #include "zz_modular_pve\code\modules\jobs\job_types\adventurers.dm"
+#include "zz_modular_pve\code\modules\mob\living\simple_animal\hostile\f13\ghoul.dm"
 #include "zz_modular_pve\code\modules\mob\living\simple_animal\hostile\f13\raider.dm"
 #include "zz_modular_pve\code\modules\projectiles\guns\ballistic\bow.dm"
 #include "zz_modular_pve\code\modules\projectiles\guns\ballistic\flintlock.dm"
