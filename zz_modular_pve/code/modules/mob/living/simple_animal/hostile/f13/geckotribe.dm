@@ -2,7 +2,7 @@
 
 /mob/living/simple_animal/hostile/gecko
 	name = "Unterratte Kobold"
-	desc = "Deep-Kobolds, Under-Kobolds, Dirt-Kobolds. The most numerous form of Kobold, specially-adapted to live underground, with sharp claws and wide eyes. They are practically unchanged since the time of Deluge, and live in hypercommunal societies, with a single group ranging anywhere from thirty to two-hundred Kobolds."
+	desc = "Deep-Kobolds, Under-Kobolds, Dirt-Kobolds. The most numerous form of Kobold, specially-adapted to live underground, with sharp claws and wide eyes. They are practically unchanged since the time of Deluge, two thousand years ago, and live in hypercommunal societies, with a single group ranging anywhere from thirty to two-hundred Kobolds."
 
 	variation_list = list(
 		MOB_COLOR_VARIATION(50, 50, 50, 255, 255, 255),
@@ -40,5 +40,10 @@
 	desc = "A Deep-Kobold. This one has a bow that they seem particularly adept with, made from Underdark-oak and spider-sinew. The arrows, though well-made, are, unfortunately, kobold-sized."
 
 /mob/living/simple_animal/hostile/gecko/tribal/shaman
+	name = "Unterratte Caller"
+	desc = "A Deep-Kobold healer and alchemist. This one chants healing spells in their native tongue, rallying other Unterratte to their side. Though they seem unarmed, quantity has a quality all of its own, right...?"
+
+/mob/living/simple_animal/hostile/gecko/tribal/chieftain
 	name = "Unterratte Hero"
-	desc = "A Deep-Kobold raid-leader. This one chants healing spells in their native tongue, rallying other Unterratte to their side. Though they seem unarmed, quantity has a quality all of its own, right...?"
+	desc = "And lo, Esk, in their many tricks, did give the Unterratte a Hero- and woe to the rest of the world, for they would be the ones to lead the Unteratte after the Deluge of two thousand years ago."
+
